@@ -1,0 +1,148 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Lora', serif;
+}
+
+.my-nav {
+  background-color: #333333;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.logo-img {
+  width: 60px;
+}
+
+.bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('../images/Layer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*height: 500px;*/
+  position: relative;
+  /*top: 100px;*/
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.my-btn {
+  padding: 8px 25px;
+  background-color: #fa694e;
+  color: #fff;
+}
+
+.services {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.icon-box {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #cccccc;
+  margin: auto;
+  /*border-radius: 50%;*/
+}
+
+.icon-box i {
+  color: #fa694e;
+}
+
+.icon-box:hover {
+  background-color: #fa694e;
+}
+
+.icon-box:hover i {
+  color: #fff;
+}
+
+.stories {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fbfbfb;
+}
+
+.card-img {
+  height: 100%;
+}
+
+.plus-btn {
+  background-color: #fa694e;
+}
+
+.plus-btn i {
+  color: #fff;
+}
+
+.hover-img {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  opacity: 0;
+  transition: 0.5s ease-out;
+}
+
+.hover-img:hover .overlay {
+  opacity: 1;
+}
+
+.contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.map {
+  position: relative;
+}
+
+.path {
+  position: absolute;
+  top: 30%;
+  left: 38%;
+}
+
+.form-control {
+  border: none !important;
+  background-color: #f1f4f7 !important;
+  /*border: none;*/
+  /*border-bottom: 1px solid #ccc !important;*/
+}
+
+.form-control::placeholder {
+  font-size: 10px !important;
+}
+
+.din-footer-top {
+  background-color: #191c2f;
+}
+.din-footer-mid {
+  background-color: #151723;
+}
+footer {
+  text-align: center;
+  background-color: #090c21;
+  padding: 15px 0;
+  color: #ffffff;
+}
+
+.din-common {
+  padding: 90px 0 60px;
+}
+.din-color {
+  background-color: #f5fff5;
+}
+
+/*========Service*/
+.din-icon {
+  width: 60px;
+}
