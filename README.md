@@ -1,3 +1,3 @@
 # modreno
 psd to html practice 
-# https://itiskamrul.github.io/modreno/
+# https://developerkamrul.github.io/modreno/
